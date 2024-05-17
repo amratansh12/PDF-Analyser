@@ -1,4 +1,4 @@
-# Project Title
+# PDF-Analyser
 
 This app allows you to update a PDF. You can then query your pdf and ai will generate the responses for your queries.
 
