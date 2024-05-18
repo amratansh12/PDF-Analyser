@@ -10,7 +10,7 @@ const Result = () => {
   }, [userPrompts]);
 
   return (
-    <div className="flex-1 flex flex-col items-start space-y-4 pt-10 px-6 md:px-20 lg:px-80 overflow-y-scroll mb-32 mt-24">
+    <div className="flex-1 flex flex-col items-center space-y-4 pt-10 px-6 md:px-20 lg:px-80 overflow-y-scroll mb-32 mt-24">
       {userPrompts.length > 0 &&
         userPrompts.map((item) => (
           <div className="flex flex-col items-start space-y-2 max-w-screen-lg">

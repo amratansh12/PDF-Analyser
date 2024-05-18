@@ -38,6 +38,7 @@ const InputBar = () => {
       });
       setLoading(false);
     } catch (error) {
+      setLoading(false);
       window.alert(error);
     }
 
